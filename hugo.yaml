@@ -24,21 +24,17 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
   ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -123,12 +119,12 @@ languages:
         - name: 文章
           url: archives
           weight: 1
-        # - name: 标签
-        #   url: tags
-        #   weight: 2
-        - name: 系列
-          url: series
+        - name: 标签
+          url: tags
           weight: 2
+        # - name: 系列
+        #   url: series
+        #   weight: 2
 
 menu:
   main:

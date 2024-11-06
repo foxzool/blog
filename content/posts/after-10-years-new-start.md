@@ -1,8 +1,8 @@
 ---
 tags:
-  - output/blog
+  - blog
 title: 十年后再开博客
-date: 2024-11-06T15:36:04
+date: 2024-11-06
 auth:
   - ZoOL
 showToc: true
