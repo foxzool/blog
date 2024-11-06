@@ -7,11 +7,12 @@ auth:
   - ZoOL
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 description: Desc Text
 slug: 
 image: 
-categories: 
+categories:
+  - misc
 share: true
 comments: true
 ShowReadingTime: true
