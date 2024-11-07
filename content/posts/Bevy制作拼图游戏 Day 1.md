@@ -4,7 +4,8 @@ tags:
   - note/programming
 Links:
   - "[Bevy MOC](Bevy%20MOC.md)"
-Created: 2024-10-22T11:08:19
+title: Bevy制作拼图游戏 Day 1
+Date: 2024-10-22T11:08:19
 share: true
 ---
 # 目标
