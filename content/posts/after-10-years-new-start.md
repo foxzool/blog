@@ -1,26 +1,16 @@
 ---
+Status: 🌲
 tags:
-  - output/blog
-title: 十年后再开博客
-date: 2024-11-06T15:36:04
-auth:
-  - ZoOL
-showToc: true
-TocOpen: false
-draft: true
-description: Desc Text
-slug: 
-image: 
+  - blog
+Links: 
 categories:
-  - misc
+  - 生活
+Series: 
+title: 十年后再开博客
+date: 2024-11-06T00:00:00
+Author:
+  - ZoOL
 share: true
-comments: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 ---
 
 过了十年，又开始新的博客
