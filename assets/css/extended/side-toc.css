@@ -1,0 +1,15 @@
+@media (min-width: 1600px) {
+  .post-single .toc {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    /* center */
+    transform: translateY(-50%);
+    /* max-width */
+    max-width: calc((100vw - var(--main-width) - var(--gap) * 20) / 2);
+    /* text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

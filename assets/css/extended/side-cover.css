@@ -1,0 +1,29 @@
+.nav {
+  /* nav header width*/
+  max-width: calc(var(--nav-width) + var(--gap) * 8);
+}
+.post-entry {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+}
+
+.post-entry .entry-cover {
+  grid-row: span 3;
+  margin: auto;
+}
+
+.post-entry .entry-header {
+  grid-row-start: 1;
+  /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+.post-entry .entry-content {
+  grid-row-start: 2;
+}
+
+.post-entry .entry-footer {
+  grid-row-start: 3;
+}

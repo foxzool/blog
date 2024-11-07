@@ -1,0 +1,27 @@
+
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.paginav {
+    margin-bottom: 45px;
+  }
+
+.post-content pre,
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13;
+  line-height: 1.2;
+  max-height: 40rem;
+}
+
+.jetbrains-mono-fox {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 177;
+    font-style: normal;
+  }

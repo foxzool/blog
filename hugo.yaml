@@ -14,8 +14,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ZoOL's Space
-  description: "ZoOL's Space"
+  title: ZoOL's FoxHole
+  description: "ZoOL's FoxHole"
   keywords: [ZoOL,rust,bevy]
   author: ZoOL
   # author: ["Me", "You"] # multiple authors
@@ -27,6 +27,7 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
+  ShowFullTextinRSS: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -35,7 +36,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  tocopen: false
+  tocopen: true
 
   hidemeta: false
   hideToc: false
@@ -51,8 +52,8 @@ params:
 
   label:
     text: "FoxHole"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -100,6 +101,24 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
+  page:
+    comment:
+      enable: true
+      giscus:
+        enable: true
+        repo: "foxzool/blog"
+        repoId: "R_kgDONLKiZQ"
+        category: "Announcements"
+        categoryId: "DIC_kwDONLKiZc4CkDT8"
+        mapping: "pathname"
+        lang: ''
+        reactionsEnabled: '1'
+        emitMetadata: '0'
+        inputPosition: bottom
+        lazyLoading: false
+        lightTheme: light
+        darkTheme: dark_dimmed
+
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -115,39 +134,51 @@ params:
 defaultContentLanguage: zh
 languages:
   zh:
+    languageCode: zh
+    languageName: 中文
+    taxonomies:
+      tag: tags
     menu:
       main:
-        - name: 首页
+        - name: 首页 
           url: /
           weight: 1
-        - name: 文章
-          url: archives
-          weight: 10
-        - name: 分类
-          url: categories
+        - name: 搜索 
+          url: search/
+          weight: 10          
+        - name: 归档 
+          url: archives/
           weight: 20
-        - name: 标签
+        - name: 标签 
           url: tags
           weight: 30
         - name: 仓库
           url: htpps://github.com/foxzool/blog
           weight: 40
-        
+  en:
+    languageCode: en
+    languageName: English
+    weight: 2
+    taxonomies:
+      tag: tags
+    menu:
+      main:
+        - name: Home 
+          url: /
+          weight: 1
+        - name: Search 
+          url: Search/
+          weight: 10          
+        - name: Archives
+          url: archives/
+          weight: 20
+        - name: Tags 
+          url: tags
+          weight: 30
+        - name: Github
+          url: htpps://github.com/foxzool/blog
+          weight: 40
 
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: github
-      name: Github
-      url: https://github.com/foxzool
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

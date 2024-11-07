@@ -1,0 +1,9 @@
+.main {
+  /* main width */
+  max-width: calc(var(--main-width) + var(--gap) * 20);
+}
+
+/* tags */
+.terms-tags a {
+  background: none;
+}
