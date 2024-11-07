@@ -1,0 +1,87 @@
+baseurl = "http://zool.me"
+title = "ZoOL's blog"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[services]
+
+
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Fox ZoOL"
+  info = "Full Stack DevOps and Rustacean"
+  description = "ZoOL's personal website"
+  keywords = "blog,developer,personal"
+  # avatarurl = "images/avatar.jpg"
+  gravatar = "zhooul@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  maxSeeAlsoItems = 5
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[params.giscus]
+  repo = "foxzool/blog"
+  repoID = "R_kgDONLKiZQ"
+  category = "Announcements"
+  categoryID = "DIC_kwDONLKiZc4CkDT8"
+  mapping = "pathname"
+  term = ""
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "zh-CN"
+  loading = ""
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/foxzool/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://x.com/foxzool/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 10
+  url  = "posts/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 20
+  url  = "tags/"
+
+[[menu.main]]
+  name = "About"
+  weight = 250
+  url = "about/"
