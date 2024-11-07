@@ -1,4 +1,0 @@
-.nav {
-  /* nav header width*/
-  max-width: calc(var(--nav-width) + var(--gap) * 8);
-}
