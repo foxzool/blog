@@ -6,9 +6,10 @@ defaultcontentlanguage = "en"
 
 pagination.pagerSize = 20
 
+[permalinks]
+posts = ":year/:month/:day/:filename/"
+
 [services]
-
-
 
 [markup.highlight]
 # style = "vim"
@@ -34,6 +35,7 @@ pagination.pagerSize = 20
   colorScheme = "auto"
   hidecolorschemetoggle = false
   maxSeeAlsoItems = 5
+
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
