@@ -1,15 +1,18 @@
 ---
 Status: 🌲
 tags:
-  - note/programming
   - bevy
+  - rust
 Links:
   - "[Bevy MOC](Bevy%20MOC.md)"
 title: Bevy制作拼图游戏 Day 1
 Date: 2024-10-22T11:08:19
 share: true
 categories:
-  - bevy
+  - Bevy
+Author: ZoOL
+Series:
+  - Bevy开发
 ---
 # 目标
 使用bevy制作拼图游戏(jigsaw puzzle)
@@ -61,7 +64,7 @@ info!("load image successfully!");
 let template = JigsawGenerator::new(img, 9, 6).generate();
 ```
 为了防止图片太大, 影响后续处理速度, 先按固定的尺寸缩放一下
-```
+``` rust
 /// 超过固定尺寸的进行缩放
 fn scale_image(image: &DynamicImage) -> RgbaImage {  
     let (width, height) = image.dimensions();  
@@ -122,7 +125,7 @@ for index_y in 0..starting_points_y.len() {
 ```
 处理后,我们得到了水平边和垂直边的起始点、控制点、终点等坐标点。
 我们按照上、右、下、左的顺序，将每条边先转为贝塞尔曲线，然后将4条边的曲线合起来组成了一个闭合路径(subpath)
-```
+``` rust
 let top_beziers = top_edge.to_beziers(false);  
 let right_beziers = right_edge.to_beziers(false);  
 let bottom_beziers = bottom_edge.to_beziers(true);  
