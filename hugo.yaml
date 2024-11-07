@@ -115,9 +115,6 @@ params:
 defaultContentLanguage: zh
 languages:
   zh:
-    permalinks:
-      # 默认会带路径会带 /posts 前缀
-      posts: /:slug/
     menu:
       main:
         - name: 文章
