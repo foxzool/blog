@@ -117,7 +117,7 @@ languages:
     menu:
       main:
         - name: 文章
-          url: archives
+          url: posts
           weight: 1
         - name: 标签
           url: tags
