@@ -12,7 +12,7 @@ categories:
   - bevy
 ---
 # 目标
-使用bevy制作拼图游戏(jigsaw puzzle)
+使用bevy制作拼图游戏 (jigsaw puzzle)
 - [x] 将图片按照参数分割成小图片 
 - [ ] 打乱后,点击拖动放置
 - [ ] 判断是否成功拼完或者重新开始
