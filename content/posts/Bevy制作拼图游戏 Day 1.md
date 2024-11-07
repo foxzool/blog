@@ -2,6 +2,7 @@
 Status: 🌲
 tags:
   - note/programming
+  - bevy
 Links:
   - "[Bevy MOC](Bevy%20MOC.md)"
 title: Bevy制作拼图游戏 Day 1
