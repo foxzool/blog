@@ -16,6 +16,7 @@ Author:
 Series:
   - Bevy制作拼图游戏
 Slug: 
+externalLink: https://github.com/foxzool/jigsaw_puzzle
 ---
 # 目标
 使用bevy制作拼图游戏(jigsaw puzzle)

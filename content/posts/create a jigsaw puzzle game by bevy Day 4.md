@@ -15,6 +15,7 @@ title: Bevy制作拼图游戏 Day 4
 Author:
   - ZoOL
 share: true
+externalLink: https://github.com/foxzool/jigsaw_puzzle
 ---
 # 拖拽拼图
 由于我们在上一步已经实现了`move_piece`的功能，所以我们同样只要在拖拽开始和结束时加入`MoveStart`组件
@@ -52,7 +53,7 @@ fn on_drag_end(
 }
 ```
 # ESC 取消选择拼图
-由于目前Bevy还在rc阶段，Sprite Picking还有些问题，重叠时可能引起两次点击，所以加了一个键盘判断: 按下ESC时， 将所有的选择的拼图放下。
+由于目前Bevy还在rc阶段，Sprite Picking还有些问题，重叠时可能引起两次点击，所以加了一个键盘判断: 按下ESC时， 将所有选择的拼图放下。
 ``` rust
 fn cancel_all_move(  
     key: Res<ButtonInput<KeyCode>>,  

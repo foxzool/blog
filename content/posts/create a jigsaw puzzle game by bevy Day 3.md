@@ -14,6 +14,7 @@ date: 2024-11-01T11:36:20
 Author:
   - ZoOL
 share: true
+externalLink: https://github.com/foxzool/jigsaw_puzzle
 ---
 
 # 选中拼图
