@@ -9,10 +9,12 @@ title: Bevy制作拼图游戏 Day 1
 Date: 2024-10-22T11:08:19
 share: true
 categories:
-  - Bevy
-Author: ZoOL
+  - 游戏开发
+  - 编程语言
+Author:
+  - ZoOL
 Series:
-  - Bevy开发
+  - Bevy制作拼图游戏
 ---
 # 目标
 使用bevy制作拼图游戏(jigsaw puzzle)
