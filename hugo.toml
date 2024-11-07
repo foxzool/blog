@@ -4,14 +4,14 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+pagination.pagerSize = 20
 
 [services]
 
 
 
 [markup.highlight]
-style = "github-dark"
+# style = "vim"
 
 [params]
   author = "Fox ZoOL"
@@ -28,6 +28,8 @@ style = "github-dark"
   since = 2024
 
   enableTwemoji = true
+
+  dateFormat = "2006-01-02"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
@@ -76,12 +78,22 @@ style = "github-dark"
   weight = 10
   url  = "posts/"
 
-[[menu.main]]
-  name = "Tags"
-  weight = 20
-  url  = "tags/"
+# [[menu.main]]
+#   name = "Categories"
+#   weight = 15
+#   url  = "categories/"
 
 [[menu.main]]
-  name = "About"
-  weight = 250
-  url = "about/"
+  name = "Series"
+  weight = 30
+  url  = "series/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 40
+  url  = "tags/"
+
+# [[menu.main]]
+#   name = "About"
+#   weight = 250
+#   url = "about/"
