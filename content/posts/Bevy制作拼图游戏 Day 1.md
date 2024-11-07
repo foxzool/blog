@@ -12,7 +12,7 @@ categories:
   - bevy
 ---
 # 目标
-使用bevy制作拼图游戏(jigsaw puzzle)
+使用bevy制作拼图游戏 (jigsaw puzzle)
 - [x] 将图片按照参数分割成小图片 
 - [ ] 打乱后,点击拖动放置
 - [ ] 判断是否成功拼完或者重新开始
@@ -21,7 +21,7 @@ categories:
 
 ## 思路分析
 网上搜索一番后，找到了一个[网页版拼图生成器](https://draradech.github.io/jigsaw/jigsaw.html)
-![Pasted image 20241026185259.png](/posts/(./attachments/Pasted%20image%2020241026185259.png)
+![Pasted image 20241026185259.png](./attachments/Pasted%20image%2020241026185259.png)
 和rust对应的[SVG拼图生成器](https://gitlab.switch.ch/ub-unibas/puzzle-app/puzzle-paths)
 阅读代码后，可以看到拼图每个块(Piece)， 由上、右、下、左四条边(Edge)组成，每条边分为直边(StraightEdge)和锯齿边(IdentedEdge)两种， 锯齿边由三段二次贝塞尔曲线拼成， 突起方向和大小由TabSize和Jitter控制。
 
@@ -135,7 +135,7 @@ let sub_path: Subpath<PuzzleId> = Subpath::from_beziers(&beziers, true);
 ```
 ## 裁剪拼图
 我们使用`imageproc`的绘画工具把线条画一下
-![Pasted image 20241029105308.png](/posts/(./attachments/Pasted%20image%2020241029105308.png)
+![Pasted image 20241029105308.png](./attachments/Pasted%20image%2020241029105308.png)
 感觉不错、接下来将每个小块裁出来，注意原本每条边的尺寸是按9x6的块数计算后获得的，但由于每个块可能有几条边会凸起，所以裁剪的位置要更大。幸好bezier-rs提供了bounding-box的计算
 ```rust
 let [box_min, box_max] = piece  
@@ -167,7 +167,7 @@ piece_image
     });
 ```
 再描一个白边, 完成。
-![200](/posts/(./attachments/Pasted%20image%2020241029125651.png)
+![200](./attachments/Pasted%20image%2020241029125651.png)
 将代码移入workspace,准备开始用bevy搭建游戏
 ```toml
 [workspace]  
