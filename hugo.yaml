@@ -17,10 +17,10 @@ params:
   title: ZoOL's Space
   description: "ZoOL's Space"
   keywords: [ZoOL,rust,bevy]
-  author: Me
+  author: ZoOL
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: '2006-01-02'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -50,7 +50,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "FoxHole"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -117,15 +117,22 @@ languages:
   zh:
     menu:
       main:
+        - name: 首页
+          url: /
+          weight: 1
         - name: 文章
           url: archives
-          weight: 1
+          weight: 10
+        - name: 分类
+          url: categories
+          weight: 20
         - name: 标签
           url: tags
-          weight: 2
-        # - name: 系列
-        #   url: series
-        #   weight: 2
+          weight: 30
+        - name: 仓库
+          url: htpps://github.com/foxzool/blog
+          weight: 40
+        
 
 menu:
   main:
