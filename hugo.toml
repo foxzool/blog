@@ -54,6 +54,10 @@ pagination.pagerSize = 20
   lang = "zh-CN"
   loading = ""
 
+[params.umami]
+siteID = "fddb3263-a1ac-44e7-af3a-42c2c6ddb8dc"
+scriptURL = "https://cloud.umami.is/script.js"
+
 [taxonomies]
   category = "categories"
   series = "series"
