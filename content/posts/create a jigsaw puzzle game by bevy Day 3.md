@@ -14,6 +14,7 @@ date: 2024-11-01T11:36:20
 Author:
   - ZoOL
 share: true
+Slug: create a jigsaw puzzle game by bevy Day 3
 ---
 
 # 选中拼图
