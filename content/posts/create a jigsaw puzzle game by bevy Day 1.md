@@ -15,7 +15,7 @@ Author:
   - ZoOL
 Series:
   - Bevy制作拼图游戏
-Slug: 
+Slug: create a jigsaw puzzle game by bevy Day 1
 ---
 # 目标
 使用bevy制作拼图游戏(jigsaw puzzle)

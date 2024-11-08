@@ -15,6 +15,7 @@ title: Bevy制作拼图游戏 Day 4
 Author:
   - ZoOL
 share: true
+Slug: create a jigsaw puzzle game by bevy Day 4
 ---
 # 拖拽拼图
 由于我们在上一步已经实现了`move_piece`的功能，所以我们同样只要在拖拽开始和结束时加入`MoveStart`组件
