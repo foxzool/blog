@@ -15,7 +15,7 @@ date: 2024-10-30T10:48:32
 Author:
   - ZoOL
 share: true
-Slug: 
+Slug: create a jigsaw puzzle game by bevy Day 2
 ---
 
 # Bevy初始化
